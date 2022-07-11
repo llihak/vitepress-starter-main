@@ -18,9 +18,9 @@ module.exports = {
     displayAllHeaders: true, // Default: false
     activeHeaderLinks: false, // Default: true
     nav: [
-      { text: "Landing Pages", link: "/conference/speakers" },
-      { text: "Components", link: "/conference/Saturday" },
-      { text: "How To ...", link: "/conference/Venue" },
+      { text: "Landing Pages", link: "/user/landing-pages" },
+      { text: "Components", link: "/user/components" },
+      { text: "How To ...", link: "/user/how-to" },
       // { text: "Home", link: "/" },
       // { text: "Guide", link: "/guide/" },
       // { text: "API", link: "/api/" },

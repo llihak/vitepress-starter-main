@@ -1,14 +1,14 @@
-# Working with GitHub files
+# Landing Pages
 
-## and how incredibly easy it is
+# All about our landing pages
 
-### OOPS,
+## OOPS,
 
-**_Not started just yet_**. Check this space ...
+### Not started just yet. Check this space ...
 
 A work in progress you might say
 
-enjoy a little lorem ipsom for now
+#### enjoy a little lorem ipsom for now
 
 lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus lorem ipsum pepsi cola gastro enteritus professor emeritus
 
