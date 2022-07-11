@@ -1,6 +1,6 @@
 //https://github.com/vuejs/vitepress/tree/master/docs
 module.exports = {
-  title: "Hello VitePress Tut",
+  title: "MetaStock Dev Docs",
   description: "What in the What?",
   base: "/docs",
   lang: "en-US",
@@ -8,7 +8,7 @@ module.exports = {
     lineNumbers: true,
   },
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/MS-logo-sm.png",
     docsDir: "docs",
     // editLinks: true,
     editLinkText: "Edit this page on GitHub",
@@ -18,9 +18,9 @@ module.exports = {
     displayAllHeaders: true, // Default: false
     activeHeaderLinks: false, // Default: true
     nav: [
-      { text: "Speakers", link: "/conference/speakers" },
-      { text: "Saturday", link: "/conference/Saturday" },
-      { text: "Venue", link: "/conference/Venue" },
+      { text: "Landing Pages", link: "/conference/speakers" },
+      { text: "Components", link: "/conference/Saturday" },
+      { text: "How To ...", link: "/conference/Venue" },
       // { text: "Home", link: "/" },
       // { text: "Guide", link: "/guide/" },
       // { text: "API", link: "/api/" },
@@ -56,34 +56,32 @@ function getGuideSidebar() {
       text: 'Guide',
       children: [
         { text: 'Getting Started', link: '/guide/' },
-        { text: 'Chapter One', link: '/guide/getting-start' },
-        { text: 'Chapter two', link: '/guide/two' },
+        { text: 'One', link: '/guide/one' },
+        { text: 'Two', link: '/guide/two' },
         { text: 'API', link: '/api/' },
       ]
     },
     {
       text: 'Introduction',
       children: [
-        { text: 'What is VitePress?', link: '/' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
-        { text: 'Configuration', link: '/guide/configuration' },
-        { text: 'Asset Handling', link: '/guide/assets' },
-        { text: 'Markdown Extensions', link: '/guide/markdown' },
-        { text: 'Using Vue in Markdown', link: '/guide/using-vue' },
-        { text: 'Deploying', link: '/guide/deploy' }
+        { text: 'How do I use these docs?', link: '/guide/how-do-i-use' },
+        // { text: 'Getting Started', link: '/guide/getting-started' },
+        // { text: 'Configuration', link: '/guide/configuration' },
+        // { text: 'Asset Handling', link: '/guide/assets' },
+        // { text: 'Markdown Extensions', link: '/guide/markdown' },
+        // { text: 'Using Vue in Markdown', link: '/guide/using-vue' },
+        // { text: 'Deploying', link: '/guide/deploy' }
       ]
     },
     {
       text: 'Advanced',
       children: [
+        { text: 'Github', link: '/guide/github' },
         { text: 'Frontmatter', link: '/guide/frontmatter' },
-        { text: 'Global Computed', link: '/guide/global-computed' },
-        { text: 'Global Component', link: '/guide/global-component' },
-        { text: 'Customization', link: '/guide/customization' },
-        {
-          text: 'Differences from Vuepress',
-          link: '/guide/differences-from-vuepress'
-        }
+        // {
+        //   text: 'Differences from Vuepress',
+        //   link: '/guide/differences-from-vuepress'
+        // }
       ]
     }
   ]

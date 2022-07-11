@@ -1,4 +1,6 @@
-# guide two.md
+# Working with GitHub files
+
+## and how incredibly easy it is
 
 enjoy a little lorem ipsom for now
 

@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /robot.png
+heroImage: /MS-logo.png
 heroAlt: Logo image
-heroText: Hero Title
-tagline: Hero subtitle
+heroText: MetaStock Dev Docs
+tagline: These are the docs you're looking for.
 actionText: Get Started
 actionLink: /guide/
 features:
@@ -13,5 +13,5 @@ features:
     details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
   - title: Performant
     details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2019-present Bekaku
+footer: Copyright © 2022-present IMA
 ---
